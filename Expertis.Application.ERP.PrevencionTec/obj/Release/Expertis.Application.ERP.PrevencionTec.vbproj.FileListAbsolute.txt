@@ -1,0 +1,47 @@
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\ResolveAssemblyReference.cache
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoAdminCombos.resources
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoPrevencionObra.resources
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.Resources.resources
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.vbproj.GenerateResource.Cache
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.dll.licenses
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.PrevencionTec.dll
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.PrevencionTec.pdb
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.PrevencionTec.xml
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoPrevencionOperario.resources
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.dll
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.xml
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.pdb
+C:\Users\TECOSISTEMAS-01-P\ExpertisNet50R2test\Bin\Expertis.Application.ERP.PrevencionTec.dll
+C:\Users\TECOSISTEMAS-01-P\ExpertisNet50R2test\Bin\Expertis.Application.ERP.PrevencionTec.pdb
+C:\Users\TECOSISTEMAS-01-P\ExpertisNet50R2test\Bin\Expertis.Application.ERP.PrevencionTec.xml
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Fuentes R2\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\ResolveAssemblyReference.cache
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Fuentes R2\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoAdminCombos.resources
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Fuentes R2\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoPrevencionObra.resources
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Fuentes R2\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoPrevencionOperario.resources
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Fuentes R2\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.Resources.resources
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Fuentes R2\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.vbproj.GenerateResource.Cache
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Fuentes R2\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.dll.licenses
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Fuentes R2\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.dll
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Fuentes R2\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.xml
+C:\Users\TECOSISTEMAS-01-P\Desktop\Expertis5\Fuentes R2\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.pdb
+C:\Users\lgonzalez\Desktop\ExpertisNet50R2test\Bin\Expertis.Application.ERP.PrevencionTec.dll
+C:\Users\lgonzalez\Desktop\ExpertisNet50R2test\Bin\Expertis.Application.ERP.PrevencionTec.pdb
+C:\Users\lgonzalez\Desktop\ExpertisNet50R2test\Bin\Expertis.Application.ERP.PrevencionTec.xml
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\ResolveAssemblyReference.cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoAdminCombos.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoPrevencionObra.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoPrevencionOperario.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.Resources.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.vbproj.GenerateResource.Cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.dll.licenses
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.xml
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.FrmDatosPrint.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.frmFecha.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.FrmInformeFecha.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoObrasHoras.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Release\Expertis.Application.ERP.PrevencionTec.MntoPrevencionAdmin.resources
+C:\ExpertisNet50R2\Bin\Expertis.Application.ERP.PrevencionTec.dll
+C:\ExpertisNet50R2\Bin\Expertis.Application.ERP.PrevencionTec.pdb
+C:\ExpertisNet50R2\Bin\Expertis.Application.ERP.PrevencionTec.xml
