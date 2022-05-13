@@ -966,14 +966,22 @@ Public Class MntoPrevencionOperario
             dt.Columns.Add("snHistorico")
 
             Dim dr As DataRow = dt.NewRow
-
-            sle_Bajas_Dias.Text = DateDiff(DateInterval.Day, ClB_Bajas_Baja.Value, ClB_Bajas_Alta.Value)
-
             dr("idOperario") = Me.CurrentRow("IDOperario")
             dr("fBaja") = Me.ClB_Bajas_Baja.Value
-            dr("fAlta") = Me.ClB_Bajas_Alta.Value
-            dr("ndias") = Me.sle_Bajas_Dias.Text
-            dr("fConf") = Me.ClB_Bajas_conf.Value
+
+            If Me.ClB_Bajas_Alta.Value.ToString.Length = 0 Then
+
+            Else
+                dr("fAlta") = Me.ClB_Bajas_Alta.Value
+                sle_Bajas_Dias.Text = DateDiff(DateInterval.Day, ClB_Bajas_Baja.Value, ClB_Bajas_Alta.Value)
+                dr("ndias") = Me.sle_Bajas_Dias.Text
+            End If
+            Try
+                dr("fConf") = Me.ClB_Bajas_conf.Value
+            Catch ex As Exception
+
+            End Try
+
             dr("Lugar") = Me.AdvS_Bajas_Obra.Value
             dr("Encargado") = Me.UiCB_BajasE.Text
             'dr("sndejaPaises") = Me.UiCheck_bajas_baja.CheckedValue
@@ -1072,6 +1080,9 @@ Public Class MntoPrevencionOperario
     End Sub
 
     Private Sub GridBajas_RowDoubleClick(ByVal sender As Object, ByVal e As Janus.Windows.GridEX.RowActionEventArgs) Handles GridBajas.RowDoubleClick
+        Dim pa As New Business.Prevencion.PrevencionAlertas
+        pa.ActualizaInfo(GridBajas.GetValue("nDias"), GridBajas.GetValue("idAlertas"))
+
         CargahBajas(GridBajas.GetValue("idAlertas"), GridBajas.GetValue("nDias"))
         GridBajas.CurrentRow.Delete()
     End Sub
@@ -1456,5 +1467,10 @@ Public Class MntoPrevencionOperario
         dt = New BE.DataEngine().Filter("tbMaestroOperarioSat", filtro)
         txtLugarReconocimiento.Text = dt.Rows(0)("Lugar").ToString
         clbFechaReconocimiento.Text = dt.Rows(0)("Fecha_Reconocimiento").ToString
+    End Sub
+
+    Private Sub GridBajas_DeletingRecords(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles GridBajas.DeletingRecords
+        Dim pa As New Business.Prevencion.PrevencionAlertas
+        pa.ActualizaInfo(GridBajas.GetValue("nDias"), GridBajas.GetValue("idAlertas"))
     End Sub
 End Class
