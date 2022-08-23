@@ -855,7 +855,8 @@ Public Class MntoPrevencionOperario
             dr("Encargado") = Me.UiCB_AccidentesE.Value
             dr("JefeProd") = Me.UiCB_AccidentesJ.Value
             dr("obra") = Me.Ul_Accidentes_obra.Text
-            dr("codobra") = Me.AdvS_Accidentes_Obra.Value
+            dr("codobra") = Me.AdvS_Accidentes_Obra.Text
+            'dr("obra") = Me.AdvS_Accidentes_Obra.Text
             dr("sninvestigaciono") = Me.UiC_Accidentes_Obra.CheckedValue
             dr("sninvestigacionpre") = Me.UiC_Accidentes_Investigacion.CheckedValue
             dr("descripcioninves") = Me.SLE_Accidentes_Descripcion.Text
@@ -1276,12 +1277,20 @@ Public Class MntoPrevencionOperario
                 Me.LastRetriveData.Tables(0).Rows(0)("tbOperarioAccidentes_encargado") = dt.Rows(0)("encargado")
                 Me.LastRetriveData.Tables(0).Rows(0)("tbOperarioAccidentes_JefeProd") = dt.Rows(0)("JefeProd")
                 Me.LastRetriveData.Tables(0).Rows(0)("tbOperarioAccidentes_codobra") = dt.Rows(0)("codobra")
+
+                'Me.LastRetriveData.Tables(0).Rows(0)("tbOperarioAccidentes_obra") = dt.Rows(0)("obra")
                 ''Reunión 11/06/2012. Correos por trabajador.
                 ''FiltroDependientes(GridCorreoAcc, Me.LastRetriveData.Tables(0).Rows(0)("tbOperarioAccidentes_idAccidente"), "idcruce")
                 ' Actualizar los datos de ventana con los datos de la fila
                 CalculadiasAct()
                 'sle_Accidentes_Dias.Text = nDiasBaja
                 Me.RefreshData()
+                Try
+                    Ul_Accidentes_obra.Text = dt.Rows(0)("obra")
+                Catch ex As Exception
+
+                End Try
+
 
                 If (dt.Rows(0)("tipo") = "1") Then
                     RB_Accidentes_leve.Checked = True

@@ -2239,7 +2239,6 @@ Partial Class MntoPrevencionOperario
         '
         Me.TryDataBinding(AdvS_Accidentes_Obra, New System.Windows.Forms.Binding("Text", Me, "tbOperarioAccidentes_codobra", True))
         Me.AdvS_Accidentes_Obra.DisabledBackColor = System.Drawing.Color.White
-        Me.AdvS_Accidentes_Obra.DisplayField = "NObra"
         Me.AdvS_Accidentes_Obra.EntityName = "ObraCabecera"
         Me.AdvS_Accidentes_Obra.Location = New System.Drawing.Point(80, 108)
         Me.AdvS_Accidentes_Obra.Name = "AdvS_Accidentes_Obra"
