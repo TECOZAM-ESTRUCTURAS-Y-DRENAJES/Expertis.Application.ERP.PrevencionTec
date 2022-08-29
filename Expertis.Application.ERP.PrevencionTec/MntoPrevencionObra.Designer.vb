@@ -312,6 +312,7 @@ Partial Class MntoPrevencionObra
         '
         Me.TryDataBinding(txtDescObra, New System.Windows.Forms.Binding("Text", Me, "DescObra", True))
         Me.txtDescObra.DisabledBackColor = System.Drawing.Color.White
+        Me.txtDescObra.Enabled = False
         Me.txtDescObra.Location = New System.Drawing.Point(138, 7)
         Me.txtDescObra.Name = "txtDescObra"
         Me.txtDescObra.Size = New System.Drawing.Size(913, 21)
@@ -321,6 +322,7 @@ Partial Class MntoPrevencionObra
         '
         Me.TryDataBinding(txtNObra, New System.Windows.Forms.Binding("Text", Me, "NObra", True))
         Me.txtNObra.DisabledBackColor = System.Drawing.Color.White
+        Me.txtNObra.Enabled = False
         Me.txtNObra.Location = New System.Drawing.Point(57, 7)
         Me.txtNObra.Name = "txtNObra"
         Me.txtNObra.Size = New System.Drawing.Size(75, 21)
