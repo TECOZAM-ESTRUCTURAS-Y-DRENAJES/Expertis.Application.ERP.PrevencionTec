@@ -830,6 +830,10 @@ Public Class MntoPrevencionOperario
                 dr("fAlta") = Me.clbtbOperarioAccidentes_falta.Value
                 'sle_Accidentes_Dias.Text = DateDiff(DateInterval.Day, ClB_Accidentes_Fbaja.Value, clbtbOperarioAccidentes_falta.Value)
                 dr("nDiasBaja") = Me.sle_Accidentes_Dias.Text
+
+                'dfernandez 03/07/2024
+
+
             End If
             Try
                 dr("fNotificacion") = Me.clbtbOperarioAccidentes_fNotificacion.Value
@@ -1069,9 +1073,12 @@ Public Class MntoPrevencionOperario
     Private Sub GridAccidentes_RowDoubleClick(ByVal sender As Object, ByVal e As Janus.Windows.GridEX.RowActionEventArgs) Handles GridAccidentes.RowDoubleClick
         'Actualizo la tbOperarioAccidentes para que no haya bloqueo de concurrencia.
         Dim pa As New Business.Prevencion.PrevencionAccidentes
-        pa.ActualizaInfo(GridAccidentes.GetValue("nDiasBaja"), GridAccidentes.GetValue("idAccidente"))
+        Dim nDiasBaja As Object = If(IsDBNull(GridAccidentes.GetValue("nDiasBaja")), DBNull.Value, GridAccidentes.GetValue("nDiasBaja"))
+        Dim idAccidente As String = If(IsDBNull(GridAccidentes.GetValue("idAccidente")), "", GridAccidentes.GetValue("idAccidente"))
 
-        CargahAccidentes(GridAccidentes.GetValue("idAccidente"), GridAccidentes.GetValue("nDiasBaja"))
+        pa.ActualizaInfo(nDiasBaja, idAccidente)
+
+        CargahAccidentes(idAccidente)
         GridAccidentes.CurrentRow.Delete()
     End Sub
 
@@ -1238,8 +1245,17 @@ Public Class MntoPrevencionOperario
     End Sub
 
 
-    Private Sub CargahAccidentes(ByVal pidAccidente As Integer, ByVal nDiasBaja As Integer)
+    Private Sub CargahAccidentes(ByVal pidAcc As String)
         Try
+            Dim pidAccidente As Integer
+            'Dim nDiasBaja As Integer
+            ', ByVal nDias As String)
+
+            If Integer.TryParse(pidAcc, pidAccidente) Then
+            Else
+                pidAccidente = 0
+            End If
+
             Dim dt As DataTable
             Dim op As New PrevencionAccidentes
             Dim f As New Filter
@@ -1462,7 +1478,10 @@ Public Class MntoPrevencionOperario
 
     Private Sub GridAccidentes_DeletingRecords(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles GridAccidentes.DeletingRecords
         Dim pa As New Business.Prevencion.PrevencionAccidentes
-        pa.ActualizaInfo(GridAccidentes.GetValue("nDiasBaja"), GridAccidentes.GetValue("idAccidente"))
+        Dim nDiasBaja As Object = If(IsDBNull(GridAccidentes.GetValue("nDiasBaja")), DBNull.Value, GridAccidentes.GetValue("nDiasBaja"))
+        Dim idAccidente As String = If(IsDBNull(GridAccidentes.GetValue("idAccidente")), "", GridAccidentes.GetValue("idAccidente"))
+
+        pa.ActualizaInfo(nDiasBaja, idAccidente)
     End Sub
 
     Private Sub MntoPrevencionOperario_Navigated(ByVal sender As System.Object, ByVal e As Solmicro.Expertis.Engine.UI.NavigatedEventArgs) Handles MyBase.Navigated
