@@ -38,6 +38,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accessibility" />
+    <Reference Include="Expertis.Business.ClasesTecozam, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Expertis.Business.General, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
@@ -94,6 +98,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCursosSubcontratas.Designer.vb">
+      <DependentUpon>frmCursosSubcontratas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCursosSubcontratas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmDatosPrint.Designer.vb">
       <DependentUpon>FrmDatosPrint.vb</DependentUpon>
     </Compile>
@@ -159,6 +169,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmCursosSubcontratas.resx">
+      <DependentUpon>frmCursosSubcontratas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmDatosPrint.resx">
       <DependentUpon>FrmDatosPrint.vb</DependentUpon>
       <SubType>Designer</SubType>
