@@ -55,6 +55,16 @@ Public Class MntoAdminCombos
             dt.Rows.Add(dr)
 
             dr = dt.NewRow()
+            dr("ClaseFormacion") = 6
+            dr("DescClaseFormacion") = "6h."
+            dt.Rows.Add(dr)
+
+            dr = dt.NewRow()
+            dr("ClaseFormacion") = 8
+            dr("DescClaseFormacion") = "8h."
+            dt.Rows.Add(dr)
+
+            dr = dt.NewRow()
             dr("ClaseFormacion") = 20
             dr("DescClaseFormacion") = "20h."
             dt.Rows.Add(dr)

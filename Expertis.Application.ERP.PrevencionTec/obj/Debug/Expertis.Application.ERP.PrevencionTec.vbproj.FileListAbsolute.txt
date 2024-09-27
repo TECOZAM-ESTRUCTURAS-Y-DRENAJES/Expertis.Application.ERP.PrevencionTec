@@ -80,3 +80,4 @@ C:\Users\dvelasco\Desktop\FuentesExpertis\Application\Expertis.Application.ERP.P
 C:\Users\dvelasco\Desktop\FuentesExpertis\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Debug\Expertis.Application.ERP.PrevencionTec.dll
 C:\Users\dvelasco\Desktop\FuentesExpertis\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Debug\Expertis.Application.ERP.PrevencionTec.xml
 C:\Users\dvelasco\Desktop\FuentesExpertis\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Debug\Expertis.Application.ERP.PrevencionTec.pdb
+C:\Users\dfernandez\Desktop\FuentesExpertis\Application\Expertis.Application.ERP.PrevencionTec\Expertis.Application.ERP.PrevencionTec\obj\Debug\Expertis.Application.ERP.PrevencionTec.frmCursosSubcontratas.resources

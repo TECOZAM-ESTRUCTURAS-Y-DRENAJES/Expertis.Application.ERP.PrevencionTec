@@ -1470,7 +1470,7 @@ Partial Class MntoPrevencionOperario
         Me.UiTabPageFormFLC.Icon = CType(resources.GetObject("UiTabPageFormFLC.Icon"), System.Drawing.Icon)
         Me.UiTabPageFormFLC.Location = New System.Drawing.Point(109, 1)
         Me.UiTabPageFormFLC.Name = "UiTabPageFormFLC"
-        Me.UiTabPageFormFLC.Size = New System.Drawing.Size(834, 398)
+        Me.UiTabPageFormFLC.Size = New System.Drawing.Size(834, 425)
         Me.UiTabPageFormFLC.TabStop = True
         Me.UiTabPageFormFLC.Text = "Formación FLC"
         '
@@ -1482,7 +1482,7 @@ Partial Class MntoPrevencionOperario
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel5.Location = New System.Drawing.Point(0, 0)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(834, 398)
+        Me.Panel5.Size = New System.Drawing.Size(834, 425)
         Me.Panel5.TabIndex = 0
         '
         'Fr50
