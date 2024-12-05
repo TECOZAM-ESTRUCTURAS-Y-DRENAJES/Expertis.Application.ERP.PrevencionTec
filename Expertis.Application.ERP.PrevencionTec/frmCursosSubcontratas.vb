@@ -102,9 +102,11 @@ Public Class frmCursosSubcontratas
                         dtOperarioInfo.Rows.Add(drLinea)
                     Next
 
+                    Dim contador = 1
                     For Each drInsert As DataRow In dtOperarioInfo.Rows
                         Dim clscCe As New Solmicro.Expertis.Business.ClasesTecozam.CursosSubcontratas
                         Dim dtCe As DataTable = clscCe.AddNewForm
+                        dtCe.Rows(0)("IDLinea") = contador
                         dtCe.Rows(0)("Empresa") = drInsert("empresa")
                         dtCe.Rows(0)("Trabajador") = drInsert("trabajador")
                         dtCe.Rows(0)("CursoEncofrador") = drInsert("cursoencofrador")
@@ -118,9 +120,11 @@ Public Class frmCursosSubcontratas
 
                         Try
                             clscCe.Update(dtCe)
+                            contador = contador + 1
                         Catch ex As Exception
 
                         End Try
+
                     Next
                 Catch ex As Exception
                 End Try
